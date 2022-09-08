@@ -1,13 +1,13 @@
-import 'tailwindcss/tailwind.css'
-import '../styles/globals.css'
+import "tailwindcss/tailwind.css";
+import "../styles/globals.css";
 
 // Font awesome configuration
-import { config, library } from '@fortawesome/fontawesome-svg-core'
-import '@fortawesome/fontawesome-svg-core/styles.css'
-config.autoAddCss = false
+import { config, library } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
 
 // Importing all the icons we need
-import { fab, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { fab, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import {
   faFlask,
   faMicroscope,
@@ -20,7 +20,7 @@ import {
   faBars,
   faCheck,
   faSpinner,
-} from '@fortawesome/free-solid-svg-icons'
+} from "@fortawesome/free-solid-svg-icons";
 library.add(
   fab,
   faFlask,
@@ -36,15 +36,17 @@ library.add(
   faGithub,
   faSpinner,
   faLinkedin
-)
+);
 
-import Layout from '../components/layout/layout'
+import Layout from "../components/layout/layout";
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
-      <Component {...pageProps} />
+      <div className="text-sm">
+        <Component {...pageProps} />
+      </div>
     </Layout>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

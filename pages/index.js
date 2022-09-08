@@ -1,14 +1,14 @@
-import FirstPage from '../components/pages/homepage/page1'
-import { Fragment } from 'react'
-import HeadTag from '../components/layout/HeadTag'
+import FirstPage from "../components/pages/homepage/page1";
+import { Fragment } from "react";
+import HeadTag from "../components/layout/HeadTag";
 
 export default function Home() {
   return (
     <Fragment>
-      <HeadTag name='Home' />
-      <div className=''>
+      <HeadTag name="Home" />
+      <div className="max-w-6xl mx-auto">
         <FirstPage />
       </div>
     </Fragment>
-  )
+  );
 }
