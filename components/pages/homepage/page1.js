@@ -77,10 +77,8 @@ const FirstPage = () => {
               doloribus iste beatae maxime. Corporis at eum explicabo inventore
               enim, iusto natus minus provident.
             </div>
-          </div>
-          <div className="bg-white p-4 rounded mb-4 ">
-            <p className="text-center titre font-bold text-md border-b-2 border-black/50 pb-2 mb-4 border-dashed">
-              Titre
+            <p className="text-center titre font-bold text-md border-black/50 pb-2 mb-4 border-dashed ">
+              Sous Titre
             </p>
             <div>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -93,6 +91,53 @@ const FirstPage = () => {
             <p className="text-center titre font-bold text-md border-b-2 border-black/50 pb-2 mb-4 border-dashed">
               Titre
             </p>
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum provident earum corrupti hic voluptatibus a fuga
+              doloribus iste beatae maxime. Corporis at eum explicabo inventore
+              enim, iusto natus minus provident.
+            </div>
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum provident earum corrupti hic voluptatibus a fuga
+              doloribus iste beatae maxime. Corporis at eum explicabo inventore
+              enim, iusto natus minus provident.
+            </div>
+            <p className="text-center titre font-bold text-md  border-black/50 pb-2 mb-4 border-dashed">
+              Souss Titre
+            </p>
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum provident earum corrupti hic voluptatibus a fuga
+              doloribus iste beatae maxime. Corporis at eum explicabo inventore
+              enim, iusto natus minus provident.
+            </div>
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum provident earum corrupti hic voluptatibus a fuga
+              doloribus iste beatae maxime. Corporis at eum explicabo inventore
+              enim, iusto natus minus provident.
+            </div>
+          </div>
+          <div className="bg-white p-4 rounded mb-4 ">
+            <p className="text-center titre font-bold text-md border-b-2 border-black/50 pb-2 mb-4 border-dashed">
+              Titre
+            </p>
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum provident earum corrupti hic voluptatibus a fuga
+              doloribus iste beatae maxime. Corporis at eum explicabo inventore
+              enim, iusto natus minus provident.
+            </div>
+            <p className="text-center titre font-bold text-md  border-black/50 pb-2 mb-4 border-dashed">
+              Sous Titre
+            </p>
+            <div>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptatum provident earum corrupti hic voluptatibus a fuga
+              doloribus iste beatae maxime. Corporis at eum explicabo inventore
+              enim, iusto natus minus provident.
+            </div>
             <div>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Voluptatum provident earum corrupti hic voluptatibus a fuga
