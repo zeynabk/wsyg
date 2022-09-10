@@ -50,21 +50,21 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
     },
     {
-      "id": "08",
+      "id": "",
       "name": "Plateau",
       "src": "/gallery/img8.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
       "date": "2019-03-01"
     },
     {
-      "id": "09",
+      "id": "",
       "name": "Almady",
       "src": "/gallery/img9.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
       "date": "202--03-05"
     },
     {
-      "id": "10",
+      "id": "",
       "name": "Thies",
       "src": "/gallery/img10.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",

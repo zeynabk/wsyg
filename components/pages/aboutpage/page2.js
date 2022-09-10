@@ -83,80 +83,83 @@ const SecondPage = () => {
         <div className="text-centergrid md:grid-cols-2 gap-4 py-5 md:my-20 my-10 container mx-auto px-4">
           <div className="bg-white p-4 rounded mb-4">
             <p className="text-center titre font-bold text-md border-b-2 border-black/50 pb-2 mb-4 border-dashed ">
-              Titre
+            Opportunities and challenges in achieving goals and objectives            
             </p>
             <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum provident earum corrupti hic voluptatibus a fuga
-              doloribus iste beatae maxime. Corporis at eum explicabo inventore
-              enim, iusto natus minus provident.
+            To achieve the goal and objectives of AIMS-WPSYG, the following internal and external opportunities and challenges have been identified by the organization:
             </div>
             <p className="mt-4 text-center titre font-bold text-md border-black/50 pb-2 mb-4 border-dashed ">
-              Sous Titre
+            Internal Strengths 
+            </p>
+            <p className="mt-4 text-center titre font-bold text-md border-black/50 pb-2 mb-4 border-dashed ">
+            High human capacity 
             </p>
             <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum provident earum corrupti hic voluptatibus a fuga
-              doloribus iste beatae maxime. Corporis at eum explicabo inventore
-              enim, iusto natus minus provident.
+            The membership of the organization comprises highly skilled people to have advanced 
+            knowledge and skills in mathematics and science. 
+            This will therefore serve as a source of much needed personnel 
+            to advance to agenda the association
             </div>
+            <p className="mt-4 text-center titre font-bold text-md border-black/50 pb-2 mb-4 border-dashed ">
+            Wide spatial coverage 
+            </p>
+            <div>
+            With the huge network of women alumni of the African Institute for Mathematical 
+            Sciences who have gone on to attain blissful professional goals located all over the African continent,
+            the organization has a large pool of people to tap on in situ for its activities when it expands its activities 
+            to the rest of the African continent.
+            </div>
+            <p className="mt-4 text-center titre font-bold text-md border-black/50 pb-2 mb-4 border-dashed ">
+            Ease in accessing locations  
+            </p>
+            <div>
+            Most of the activities of the organization will be designed as outreach programs which will either take place at the location 
+            of the target population or online. 
+            This eliminates the need for external venues in most cases
+            </div> 
+
           </div>
           <div className="bg-white p-4 rounded mb-4 ">
             <p className="text-center titre font-bold text-md border-b-2 border-black/50 pb-2 mb-4 border-dashed">
-              Titre
+            Internal Challenges
             </p>
-            <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum provident earum corrupti hic voluptatibus a fuga
-              doloribus iste beatae maxime. Corporis at eum explicabo inventore
-              enim, iusto natus minus provident.
-            </div>
-            <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum provident earum corrupti hic voluptatibus a fuga
-              doloribus iste beatae maxime. Corporis at eum explicabo inventore
-              enim, iusto natus minus provident.
-            </div>
+            
             <p className="mt-4 text-center titre font-bold text-md  border-black/50 pb-2 mb-4 border-dashed">
-              Sous Titre
+            Availability of members
             </p>
             <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum provident earum corrupti hic voluptatibus a fuga
-              doloribus iste beatae maxime. Corporis at eum explicabo inventore
-              enim, iusto natus minus provident.
+            Due to the work schedule of AIMS alumni in particular, 
+            it is anticipated that in some cases, there will be difficulty 
+            in getting a convenient and suitable time that fits into their plans.
+            To ameliorate this, plans will be drawn in partnership members concerned
+            and there will be constant engagement 
+            with them to ensure smooth roll out of all activities.
             </div>
-            <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum provident earum corrupti hic voluptatibus a fuga
-              doloribus iste beatae maxime. Corporis at eum explicabo inventore
-              enim, iusto natus minus provident.
-            </div>
+            
           </div>
           <div className="bg-white p-4 rounded mb-4 ">
             <p className="text-center titre font-bold text-md border-b-2 border-black/50 pb-2 mb-4 border-dashed">
-              Titre
+            External Strengths
+            </p>
+            <p className="mt-4 text-center titre font-bold text-md  border-black/50 pb-2 mb-4 border-dashed">
+            Partnerships
             </p>
             <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum provident earum corrupti hic voluptatibus a fuga
-              doloribus iste beatae maxime. Corporis at eum explicabo inventore
-              enim, iusto natus minus provident.
+            AIMS-WPSYG is backed by well-established and highly reputable organizations
+             including AIMS, 
+            international organizations for education and gender, 
+            the ministries of education and higher education of various countries, 
+            universities, colleges, high schools, private companies etc. 
+            These organizations will therefore support the association logically and
+             financially to ensure that its goals and objectives are met.
             </div>
             <p className="mt-4 text-center titre font-bold text-md  border-black/50 pb-2 mb-4 border-dashed">
-              Sous Titre
+            Strategic Plan
             </p>
             <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum provident earum corrupti hic voluptatibus a fuga
-              doloribus iste beatae maxime. Corporis at eum explicabo inventore
-              enim, iusto natus minus provident.
-            </div>
-            <div>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Voluptatum provident earum corrupti hic voluptatibus a fuga
-              doloribus iste beatae maxime. Corporis at eum explicabo inventore
-              enim, iusto natus minus provident.
+            To attain the goals and objectives of AIMS-WPSYG, the organization as adopted a strategic plan which is based of its planned activities over
+             the short-term (1 year), medium-term (next 2 years) and long-term (next 5 years).
+
             </div>
           </div>
         </div>

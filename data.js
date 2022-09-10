@@ -11,9 +11,9 @@ const allData = [
     spin: false,
     id: '02',
     icon: 'microscope',
-    title: 'OBJECTIVES',
+    title: 'PROGRAMMES',
     description:
-    'AIMS- WPSYG wishes to engage in specific, measurable, achievable, realistic and time-bound objectives including.Organizing of public lectures in High SchoolsOrganizing regional and Inter-High Schools mathematical quizzes .Organizing annual international workshops in African countries to create an avenue for AIMS alumni to present their research projects to young female scientists in colleges, high schools and universities.Organizing annual Olympiads in data science.Providing mentorship from AIMS students and alumni to High school students.' ,
+    'AIMS- WPSYG wishes to engage in specific, measurable, achievable, realistic and time-bound objectives including.Organizing of public lectures in High Schools Organizing regional and Inter-High Schools mathematical quizzes .Organizing annual international workshops in African countries to create an avenue for AIMS alumni to present their research projects to young female scientists in colleges, high schools and universities.Organizing annual Olympiads in data science.Providing mentorship from AIMS students and alumni to High school students.' ,
   },
   {
     spin: false,

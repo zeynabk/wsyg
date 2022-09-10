@@ -16,9 +16,7 @@ const Team = () => {
             Team
           </h1>
           <p className='text-noir'>
-            Lorem ipsum dolor sit amet consectetur adipisicing. Lorem ipsum
-            dolor sit, amet consectetur adipisicing elit. Natus optio eos
-            officia pariatur est voluptate. Lorem ipsum dolor sit amet.
+          Professional Service Requires an Experienced Team 
           </p>
         </div>
         <div className='grid md:grid-cols-3 grid-cols-1 xs:grid-cols-2 gap-4 justify-center items-center '>
