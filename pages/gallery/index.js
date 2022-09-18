@@ -42,9 +42,6 @@ const GalleryPage = ({
     <Fragment>
       <HeadTag name="Gallery" />
       <GalleryPageContainer data={images} />
-      <p>
-        <button onClick={handleOnLoadMore}>Load More Results</button>
-      </p>
     </Fragment>
   );
 };
