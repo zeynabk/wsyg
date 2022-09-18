@@ -7,11 +7,7 @@ import ImageItem from "./ImageItem";
 import { useState } from "react";
 const GalleryPageContainer = ({ data }) => {
   const [term, setTerm] = useState("");
-  const searchData = data.filter(
-    (d) =>
-      d.name?.toLowerCase().includes(term.toLowerCase()) ||
-      d.description?.toLowerCase().includes(term.toLowerCase())
-  );
+
   return (
     <Fragment>
       <HeadTag name="Gallery" />

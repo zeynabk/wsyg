@@ -33,7 +33,7 @@ const GalleryPage = ({
 
     const images = mapImageResources(resources);
     setImages((prev) => {
-      return [...prev, ...images];
+      return { ...prev, ...images };
     });
     setNextCursor(nextPageCursor);
     setTotalCount(updatedTotalCount);
