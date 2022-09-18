@@ -5,4 +5,5 @@ module.exports = {
     config.resolve.fallback = { fs: false, path: false };
     return config;
   },
+  images: { domains: ["res.cloudinary.com"] },
 };

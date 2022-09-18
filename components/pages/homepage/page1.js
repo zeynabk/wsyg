@@ -65,9 +65,25 @@ const FirstPage = () => {
       <div className="grid md:grid-cols-2 gap-4 container mx-auto px-4 my-8">
         <CardHome />
       </div>
+      <h1 className="text-white md:text-2xl text-center text-xl font-black container mx-auto mb-8">
+        Partners
+      </h1>
+      <div className="grid grid-cols-1 justify-center items-center px-4">
+        {/* <Partners /> */}
 
-      <div className="">
-        <Partners />
+        <div className="relative flex justify-center">
+          <Image
+            src="/partner/partner.jpg"
+            // layout="fill"
+            width="350"
+            height="350"
+            objectFit="cover"
+            objectPosition="bottom"
+            alt="group"
+            className="rounded"
+          />
+        </div>
+        <div className="text-center my-4 text-lg">Enter your text here</div>
       </div>
     </>
   );
