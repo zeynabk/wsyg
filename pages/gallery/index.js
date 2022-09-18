@@ -64,9 +64,9 @@ export async function getStaticProps() {
   const images = mapImageResources(resources);
   return {
     props: {
-      images,
+      images: images || null,
       nextCursor: nextCursor || false,
-      totalCount,
+      totalCount: totalCount || null,
     },
   };
 }
