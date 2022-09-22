@@ -10,6 +10,9 @@ config.autoAddCss = false;
 import { fab, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import {
   faFlask,
+  faBiohazard,
+  faRocket,
+  faBraille,
   faMicroscope,
   faTemperatureLow,
   faCog,
@@ -24,6 +27,9 @@ import {
 library.add(
   fab,
   faFlask,
+  faBiohazard,
+  faRocket,
+  faBraille,
   faMicroscope,
   faTemperatureLow,
   faCog,

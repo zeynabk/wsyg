@@ -28,19 +28,19 @@ const FourthPage = () => {
               <div className='address justify-self-start'>
                 <h1 className='font-bold mb-2 text-lg'>Address</h1>
                 <p className='font-italic font-light text text-sm'>
-                  NY, United States
+                  Dakar, Nord Foire
                 </p>
               </div>
               <div className='phone justify-self-center'>
                 <h1 className='font-bold mb-2 text-lg'>Phone</h1>
                 <p className='font-italic font-light text text-sm'>
-                  +221 77 123 45 67
+                  +221 77 779 95 31
                 </p>
               </div>
               <div className='email lg:justify-self-end justify-self-start'>
-                <h1 className='font-bold mb-2 text-lg'>Phone</h1>
+                <h1 className='font-bold mb-2 text-lg'>E-Mail</h1>
                 <p className='font-italic font-light text text-sm'>
-                  test@example.com
+                  aims.wpsyg@gmail.com
                 </p>
               </div>
             </div>
@@ -48,43 +48,7 @@ const FourthPage = () => {
         </div>
       </div>
       {/* <Donate /> */}
-      <div className='  my-8  rounded-xl '>
-        <h1 className='uppercase text-white text-5xl font-black py-5 text-center'>
-          Testimonials
-        </h1>
-      </div>
-      <div className='container mx-auto grid md:grid-cols-3 gap-4 sm:grid-cols-2  px-4'>
-        <InfoCard
-          image='/work/work1.jpg'
-          title='Social'
-          description='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum provident earum corrupti'
-        />
-        <InfoCard
-          image='/work/work2.jpg'
-          title='Telehealth'
-          description='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum provident earum corrupti'
-        />
-        <InfoCard
-          image='/work/work3.jpg'
-          title='Workforce'
-          description='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum provident earum corrupti'
-        />
-        <InfoCard
-          image='/work/work1.jpg'
-          title='Social'
-          description='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum provident earum corrupti'
-        />
-        <InfoCard
-          image='/work/work2.jpg'
-          title='Telehealth'
-          description='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum provident earum corrupti'
-        />
-        <InfoCard
-          image='/work/work3.jpg'
-          title='Workforce'
-          description='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum provident earum corrupti'
-        />
-      </div>
+      
       <div className='h-10 bg-pink'></div>
     </>
   )

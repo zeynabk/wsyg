@@ -36,7 +36,7 @@ const GalleryPageContainer = ({ data }) => {
           Gallery
         </h1>
         <div className=" grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-4 container mx-auto transition transform duration-1000 ease-in-out">
-          {data.map((d) => (
+          {data?.map((d) => (
             // <p key={d.id}>{d.name}</p>
             <ImageItem
               key={d.id}

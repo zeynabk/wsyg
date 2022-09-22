@@ -43,10 +43,15 @@ const SecondPage = () => {
             }
           </p>
           <p className="leading-loose">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
-            provident earum corrupti hic voluptatibus a fuga doloribus iste
-            beatae maxime. Corporis at eum explicabo inventore enim, iusto natus
-            minus provident.
+          Our society is undergoing numerous technological changes. In just a couple of decades,
+          it will be quite different from what it is today. One significant factor that impacts and transforms various aspects 
+          of everyday life is the rapid expansion of the artificial intelligence and robotics industry.
+          </p>
+          <p className="leading-loose">
+          Scientists, industry experts and ordinary people all express various 
+          viewpoints about the potential outcomes of the active AI and robotics development.
+          And if some believe that smart technologies have inexhaustible power and vast benefits, others are scared of the possible 
+          “rise of the machines” and the destruction of the human race.
           </p>
         </div>
       </div>
@@ -58,21 +63,21 @@ const SecondPage = () => {
             number={"20"}
             title={"membres"}
             text={
-              "The membership of the organization comprises highly skilled people to have advanced knowledge and skills in mathematics and science. This will therefore serve as a source of much needed personnel to advance to agenda the association"
+              "The membership of the organization comprises highly skilled people to have advanced knowledge and skills in mathematics and science."
             }
           />
           <AboutCard
             number={"100"}
             title={"participants"}
             text={
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum provident earum corrupti hic voluptatibus a fuga doloribus iste beatae maxime. Corporis at eum explicabo inventore enim, iusto natus minus provident."
+              "Over the years AIMS-WPSYG has been able to register 100 participants across different countries"
             }
           />
           <AboutCard
             number={"70%"}
             title={"success"}
             text={
-              "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum provident earum corrupti hic voluptatibus a fuga doloribus iste beatae maxime. Corporis at eum explicabo inventore enim, iusto natus minus provident."
+              "Thanks to the AIMS challenge, 70% of the results have been achieved"
             }
           />
         </div>

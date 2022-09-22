@@ -16,7 +16,7 @@ const Team = () => {
             Team
           </h1>
           <p className='text-noir'>
-          Professional Service Requires an Experienced Team 
+          Professional Service Requires an Experienced Team.Individuals brought together to create a team considered the perfect combination for a particular purpose.
           </p>
         </div>
         <div className='grid md:grid-cols-3 grid-cols-1 xs:grid-cols-2 gap-4 justify-center items-center '>
