@@ -7,7 +7,12 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
 // Importing all the icons we need
-import { fab, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import {
+  fab,
+  faGithub,
+  faLinkedin,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 import {
   faFlask,
   faBiohazard,
@@ -41,6 +46,7 @@ library.add(
   faCheck,
   faGithub,
   faSpinner,
+  faYoutube,
   faLinkedin
 );
 

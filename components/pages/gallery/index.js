@@ -14,9 +14,8 @@ const GalleryPageContainer = ({ data }) => {
       <main className=" min-h-screen relative ">
         <div className="">
           <Image
-            src="/gallery/group.jpg"
+            src="/team/team.jpg"
             layout="fill"
-            width="100%"
             objectFit="cover"
             objectPosition="bottom"
             alt="group"

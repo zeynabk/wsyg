@@ -29,19 +29,22 @@ const FirstPage = () => {
               <div className="btn grid sm:grid-cols-2 md:gap-4 gap-2">
                 <Link href="https://youtube.com/playlist?list=PLBNH0HZjdRCNIgtcGAIgR6R64G4ARpQtl">
                   <a className="border text-center rounded-md bg-white  text-black lg:px-12 md:px-2  py-2 hover:bg-gray-200 font-semibold">
-                    Join youtube
+                    Join youtube{" "}
+                    <FontAwesomeIcon
+                      icon={["fab", "youtube"]}
+                      size="1x"
+                      color="red"
+                      className="rounded inline"
+                    />
                   </a>
                 </Link>
-                {/* <ButtonBeize name='Volunter With Us' /> */}
-              </div>
-              <div className="btn grid sm:grid-cols-2 md:gap-4 gap-2">
                 <Link href="https://docs.google.com/forms/d/e/1FAIpQLSc_IVVi1oZ5TZpUJOPwYH3a5kNEuFEPXuFmjot2Z44V4n6Nlg/viewform">
                   <a className="border text-center rounded-md bg-white  text-black lg:px-12 md:px-2  py-2 hover:bg-gray-200 font-semibold">
                     Join Us
                   </a>
                 </Link>
                 {/* <ButtonBeize name='Volunter With Us' /> */}
-              </div> 
+              </div>
             </div>
           </div>
           <div className="sm:col-span-2 flex justify-center items-center">
@@ -78,22 +81,24 @@ const FirstPage = () => {
       </h1>
       <div className="grid grid-cols-1 justify-center items-center px-4">
         {/* <Partners /> */}
-        <div className="text-center my-4 text-lg">AIMS was able to acquire trustworthy partners like Blaise Diagne High School, 
-        Sally High School, Kennedy High School, Delafoss High School, Mariama Ba High School.</div>
-      </div>
-        <div className="relative flex justify-center">
-          <Image
-            src="/partner/partner.jpg"
-            // layout="fill"
-            width="120"
-            height="120"
-            objectFit="cover"
-            objectPosition="bottom"
-            alt="group"
-            className="rounded"
-          />
+        <div className="text-center my-4 text-lg">
+          AIMS was able to acquire trustworthy partners like Blaise Diagne High
+          School, Sally High School, Kennedy High School, Delafoss High School,
+          Mariama Ba High School.
         </div>
-        
+      </div>
+      <div className="relative flex justify-center">
+        <Image
+          src="/partner/partner.jpg"
+          // layout="fill"
+          width="120"
+          height="120"
+          objectFit="cover"
+          objectPosition="bottom"
+          alt="group"
+          className="rounded"
+        />
+      </div>
     </>
   );
 };
