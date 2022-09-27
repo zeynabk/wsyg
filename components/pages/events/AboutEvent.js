@@ -19,39 +19,14 @@ const AboutEvent = () => {
             />
           </div>
           <div>
-            <h1 className='font-black text-3xl'>About this Conference</h1>
+            <h1 className='font-black text-3xl'>BackGround</h1>
             <p className='opacity-90 leading-relaxed my-4 '>
-              When I first got into the online advertising business, I was
-              looking for the magical combination that would put my website into
-              the top search engine rankings, catapult me to the forefront of
-              the minds or individuals looking to buy my product, and generally
-              make me rich beyond my wildest dreams! After succeeding in the
-              business for this long, I’m able to look back on my old self with
-              this kind of thinking and shake my head.
+            In contemporary times, advances in human well-being in the world are driven by progress in the field of Mathematics and Science. Indeed, modern economies are predominantly built on dynamism and achievements in the fields of mathematics and science. The emergence of countries in the far east as dominant global forces is mostly attributed to the gains accrued through a sustained investment in mathematics and science. Nonetheless, in most developing countries especially in Africa, few people pursue this field at all sectors in the educational spectrum. 
+            This apathy for science and mathematics is even more widespread among females. Many reasons have been proffered over the years for this situation including the fact that these subjects are complex and difficult. Other reasons given for this situation include little investment in industries and the absence of adequate personnel and equipment in schools and educational institutions. Some people have even resorted to classifying this field as a ‘male only field’ due to the dominance of males in the field.
+            To reverse this situation, UNESCO and most nations have put in frantic efforts but the number of females in the sciences is still abysmally low. While very few females dare to venture into this field, a great majority of them drop out at very early stages of the programs. In spite of the many reasons that have been advanced for this, one of the most obvious reasons which is mostly overlooked is the fact that girls often lack role models and mentorship especially from the peers who have succeeded in this field.
+
             </p>
-            <ul className='opacity-90  '>
-              <li>
-                <FontAwesomeIcon
-                  icon='fa-solid fa-check'
-                  className='mr-4 text-green-500'
-                />{' '}
-                Write On Your Business Card
-              </li>
-              <li>
-                <FontAwesomeIcon
-                  icon='fa-solid fa-check'
-                  className='mr-4 text-green-500'
-                />
-                Advertising Outdoors
-              </li>
-              <li>
-                <FontAwesomeIcon
-                  icon='fa-solid fa-check'
-                  className='mr-4 text-green-500'
-                />{' '}
-                Effective Advertising Pointers
-              </li>
-            </ul>
+            
           </div>
         </div>
       </div>
