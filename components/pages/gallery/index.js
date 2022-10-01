@@ -60,7 +60,7 @@ const GalleryPageContainer = ({
             objectPosition="bottom"
             alt="group"
           />
-          <div className=" absolute w-full h-full bg-black opacity-40"> </div>
+          <div className="absolute w-full h-full bg-black opacity-40"> </div>
         </div>
       </main>
       <div className="bg-pink py-8 px-4">
