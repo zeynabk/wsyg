@@ -8,40 +8,17 @@ const GalleryPage = ({
   images: defaultImages,
   nextCursor: defaultNextCursor,
   totalCount: defaultTotalCount,
+  folders: defaultFolders,
 }) => {
-  const [totalCount, setTotalCount] = useState(defaultTotalCount);
-
-  const [images, setImages] = useState(defaultImages);
-  const [nextCursor, setNextCursor] = useState(defaultNextCursor);
-
-  async function handleOnLoadMore(e) {
-    e.preventDefault();
-
-    const results = await fetch("/api/search", {
-      method: "POST",
-      body: JSON.stringify({
-        // expression: `folder=""`,
-        nextCursor,
-      }),
-    }).then((r) => r.json());
-
-    const {
-      resources,
-      next_cursor: nextPageCursor,
-      total_count: updatedTotalCount,
-    } = results;
-
-    const images = mapImageResources(resources);
-    setImages((prev) => {
-      return { ...prev, ...images };
-    });
-    setNextCursor(nextPageCursor);
-    setTotalCount(updatedTotalCount);
-  }
   return (
     <Fragment>
       <HeadTag name="Gallery" />
-      <GalleryPageContainer data={images} />
+      <GalleryPageContainer
+        nextCursor={defaultNextCursor}
+        totalCount={defaultTotalCount}
+        defaultFolders={defaultFolders}
+        defaultImages={defaultImages}
+      />
     </Fragment>
   );
 };
@@ -59,11 +36,19 @@ export async function getStaticProps() {
   } = results;
 
   const images = mapImageResources(resources);
+  const { folders } = await getFolders();
+  const gallery = folders.map((folder) => {
+    return {
+      title: folder.name,
+      images: images.filter((image) => image.title.includes(folder.name)),
+    };
+  });
   return {
     props: {
       images: images || null,
       nextCursor: nextCursor || false,
       totalCount: totalCount || null,
+      folders,
     },
   };
 }

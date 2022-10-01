@@ -5,9 +5,7 @@ import CardHome from "../../Cards/CardHome";
 import ParaCurved from "../../tricks/ParaCurved";
 import Partners from "../../Cards/Partners";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-const myLoader = ({ src, width, quality }) => {
-  return `https://example.com/${src}?w=${width}&q=${quality || 75}`;
-};
+
 const FirstPage = () => {
   return (
     <>

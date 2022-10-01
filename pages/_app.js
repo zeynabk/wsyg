@@ -15,6 +15,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faFlask,
+  faBullseye,
   faBiohazard,
   faRocket,
   faBraille,
@@ -32,6 +33,7 @@ import {
 library.add(
   fab,
   faFlask,
+  faBullseye,
   faBiohazard,
   faRocket,
   faBraille,

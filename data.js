@@ -26,7 +26,7 @@ const allData = [
   {
     spin: false,
     id: "04",
-    icon: "microscope",
+    icon: "bullseye",
     title: "GOAL",
     description:
       "The goal of AIMS-WPSYG is to build and sustain the interest of the youth and females in particular in Africa in mathematics and science with the sole aim of getting them to pursue careers in this field for the overall development of the African continent.",

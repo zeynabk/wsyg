@@ -4,11 +4,11 @@ import allData from "../../data";
 const Card = () => {
   return (
     <Fragment>
-      {allData.map((data) => (
+      {allData.map((data, index) => (
         <>
           {data.id === "02" ? (
             <div
-              key={data.id}
+              key={data.id || index}
               className="bg-white text-noir  py-3 rounded-md filter drop-shadow"
             >
               <div className="w-11/12 m-auto">
@@ -17,7 +17,7 @@ const Card = () => {
                 </div>
                 <div className="">
                   <h1 className="font-black text-xl my-2">{data.title}</h1>
-                  <ol className="list-decimal text-noir max-h-56 overflow-scroll">
+                  <ol className="list-decimal text-noir max-h-56 overflow-auto">
                     <li>
                       AIMS-WPSYG wishes to engage in specific, measurable,
                       achievable, realistic and time-bound objectives including.{" "}
@@ -44,8 +44,8 @@ const Card = () => {
             </div>
           ) : (
             <div
-              key={data.id}
-              className="bg-white  overflow-scroll text-noir  py-3 rounded-md filter drop-shadow"
+              key={data.id || index}
+              className="bg-white   text-noir  py-3 rounded-md filter drop-shadow"
             >
               <div className="w-11/12 m-auto">
                 <div className="text-left py-2 ">
@@ -53,7 +53,9 @@ const Card = () => {
                 </div>
                 <div className="">
                   <h1 className="font-black text-xl my-2">{data.title}</h1>
-                  <div className="text-noir max-h-56">{data.description}</div>
+                  <div className="text-noir overflow-auto max-h-56">
+                    {data.description}
+                  </div>
                 </div>
               </div>
             </div>
