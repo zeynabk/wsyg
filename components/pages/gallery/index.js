@@ -68,30 +68,7 @@ const GalleryPageContainer = ({
         <h1 className="text-white md:text-2xl text-center text-xl font-black container mx-auto mb-8">
           Gallery
         </h1>
-        <div className="container mx-auto my-4 md:flex grid justify-center gap-4">
-          <Link href="https://youtube.com/playlist?list=PLBNH0HZjdRCNIgtcGAIgR6R64G4ARpQtl">
-            <a className="border text-center rounded bg-white  text-black lg:px-12 md:px-2  py-2 hover:bg-gray-200 font-semibold">
-              python days{" "}
-              <FontAwesomeIcon
-                icon={["fab", "youtube"]}
-                size="1x"
-                color="red"
-                className="rounded inline"
-              />
-            </a>
-          </Link>
-          <Link href="https://youtube.com/playlist?list=PLBNH0HZjdRCP1mrMPYAWYV_0RY-b0Mr9D">
-            <a className="border text-center rounded bg-white  text-black lg:px-12 md:px-2  py-2 hover:bg-gray-200 font-semibold">
-              Modeling Events
-              <FontAwesomeIcon
-                icon={["fab", "youtube"]}
-                size="1x"
-                color="red"
-                className="rounded inline"
-              />
-            </a>
-          </Link>
-        </div>
+
         <ul
           onClick={handleOnFolderClick}
           className="grid mb-8 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-4 container mx-auto"

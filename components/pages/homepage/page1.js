@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const FirstPage = () => {
   return (
     <>
-      <main className="h-96 relative mb-4">
+      <main className="sm:h-[500px] 0 relative mb-4">
         <div className="h-full">
           <Image
             src="/img/background.png"
@@ -19,7 +19,7 @@ const FirstPage = () => {
             alt="group"
           />
           <div className=" absolute w-full h-full bg-black opacity-50 "> </div>
-          <div className="container  flex h-full justify-center items-center relative mx-auto  px-4">
+          <div className="container py-16 sm:py-0 flex h-full justify-center items-center relative mx-auto  px-4">
             <div className="bg-pink/40 p-4 rounded-md z-10 md:text-left text-center container mx-auto ">
               <h1 className="font-black text-center lg:text-4xl md:text-3xl text-3xl leading-tight mb-4	">
                 Women Promoting Science To The Younger Generation
@@ -82,17 +82,28 @@ const FirstPage = () => {
           </div>
         </div>
       </div> */}
-      <div className="text-center shadow lg:mb-16 md:mb-4  mb-8 md:w-3/12 w-5/12 m-auto py-12 bg-white text-noir border rounded-3xl">
-        <FontAwesomeIcon icon="cog" size="4x" className="" />
-      </div>
-      <div className=" container mx-auto px-4">
-        <ParaCurved />
-        <div className="description md:w-2/3 w-full tracking-wider leading-loose">
-          WPSYG is an association that is focused on igniting and sustaining the
-          interest of the youth in general and girls in particular in
-          mathematics and science with the aim of getting them to develop career
-          in this field to enable them compete globally and solve the local
-          development challenges in their communities.
+
+      <div className=" container mx-auto px-4 ">
+        <div className="grid relative sm:grid-cols-2 grid-cols-1 gap-5">
+          <div className="my-4 h-full">
+            <ParaCurved />
+            <div className="description tracking-wider leading-loose">
+              WPSYG is an association that is focused on igniting and sustaining
+              the interest of the youth in general and girls in particular in
+              mathematics and science with the aim of getting them to develop
+              career in this field to enable them compete globally and solve the
+              local development challenges in their communities.
+            </div>
+          </div>
+          <div className="relative h-full min-h-[300px]">
+            <Image
+              src="/img/img3.svg"
+              alt="robotic"
+              layout="fill"
+              objectFit="container"
+              priority
+            />
+          </div>
         </div>
       </div>
       <div className="grid md:grid-cols-2 gap-4 container mx-auto px-4 my-8">

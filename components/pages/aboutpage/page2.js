@@ -2,12 +2,12 @@ import React from "react";
 import Image from "next/image";
 import AboutCard from "./AboutCard";
 import Team from "./team";
-const AboutBG = "/img/about.jpg";
+const AboutBG = "/img/about.jpeg";
 const PexelBG = "/img/pexel2.jpg";
 const SecondPage = () => {
   return (
     <>
-      <div className="relative w-full min-h-screen">
+      <div className="relative w-full min-h-[600px]">
         <div
           className="absolute top-0 left-0 z-20 w-full h-full bg-gradient-to-b from-transparent to-pink"
           aria-hidden="true"
@@ -30,12 +30,12 @@ const SecondPage = () => {
 
       {/* Robotic SEction */}
       <div className=" px-4 py-4 my-10 container mx-auto">
-        <div className="sm:text-3xl md:text-5xl text-4xl md:w-1/2 sm:w-8/12 w-11/12 font-bold">
+        <div className="sm:text-3xl md:text-5xl mx-auto text-4xl md:w-1/2 sm:w-8/12 w-11/12 font-bold">
           Robotic is becoming a life changing now
           <div className="h-2 bg-gradient-to-r from-noir via-white to-transparent rounded-full w-full my-8" />
         </div>
 
-        <div className="text-xl md:text-2xl md:w-4/5 w-full text-gray-100 py-4">
+        <div className="text-md text-center  w-full text-gray-100 py-4">
           <p className="text-md leading-loose ">
             {
               "Did you know on average, those with stem majors earn $500,000 more over the course of their lifetime  \
