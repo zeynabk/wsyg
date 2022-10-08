@@ -52,10 +52,10 @@ const GalleryPageContainer = ({
   return (
     <Fragment>
       <HeadTag name="Gallery" />
-      <main className=" min-h-screen relative ">
+      <main className=" min-h-[500px] relative ">
         <div className="">
           <Image
-            src="/team/team.jpg"
+            src="/team/gallerybg.jpeg"
             layout="fill"
             objectFit="cover"
             objectPosition="bottom"
