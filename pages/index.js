@@ -6,7 +6,7 @@ export default function Home({}) {
   return (
     <Fragment>
       <HeadTag name="Home" />
-      <div className="max-w-6xl mx-auto">
+      <div className="">
         <FirstPage />
       </div>
     </Fragment>

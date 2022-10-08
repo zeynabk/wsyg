@@ -9,7 +9,32 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const FirstPage = () => {
   return (
     <>
-      <div className="py-5">
+      <main className="h-96 relative mb-4">
+        <div className="h-full">
+          <Image
+            src="/img/background.png"
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
+            alt="group"
+          />
+          <div className=" absolute w-full h-full bg-black opacity-50 "> </div>
+          <div className="container  flex h-full justify-center items-center relative mx-auto  px-4">
+            <div className="bg-pink/40 p-4 rounded-md z-10 md:text-left text-center container mx-auto ">
+              <h1 className="font-black text-center lg:text-4xl md:text-3xl text-3xl leading-tight mb-4	">
+                Women Promoting Science To The Younger Generation
+              </h1>
+              <p className=" text-sm text-center font-light text-white px-2 rounded">
+                WPSYG has a vision of an African continent where the majority of
+                the population are engaged in mathematics and science related
+                careers and a continent whose development agenda is driven by
+                mathematics and science
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+      {/* <div className="py-5">
         <div className=" grid sm:grid-cols-5 gap-5 container mx-auto px-4 ">
           <div className="sm:col-span-3  flex flex-col  justify-center ">
             <div className="">
@@ -41,7 +66,6 @@ const FirstPage = () => {
                     Join Us
                   </a>
                 </Link>
-                {/* <ButtonBeize name='Volunter With Us' /> */}
               </div>
             </div>
           </div>
@@ -57,7 +81,7 @@ const FirstPage = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="text-center shadow lg:mb-16 md:mb-4  mb-8 md:w-3/12 w-5/12 m-auto py-12 bg-white text-noir border rounded-3xl">
         <FontAwesomeIcon icon="cog" size="4x" className="" />
       </div>
@@ -74,28 +98,26 @@ const FirstPage = () => {
       <div className="grid md:grid-cols-2 gap-4 container mx-auto px-4 my-8">
         <CardHome />
       </div>
-      <h1 className="text-white md:text-2xl text-center text-xl font-black container mx-auto mb-8">
+      <h1 className="text-white md:text-2xl text-center text-xl font-black container mx-auto">
         Partners
       </h1>
-      <div className="grid grid-cols-2 gap-4 container mx-auto px-4 pb-8">
-        <div className=" px-4">
-          {/* <Partners /> */}
-          <div className="text-center my-4 text-lg">
-            AIMS was able to acquire trustworthy partners like Blaise Diagne
-            High School, Sally High School, Kennedy High School, Delafoss High
-            School, Mariama Ba High School.
-          </div>
+      <div className="grid sm:grid-cols-2 grid-cols-1 gap-4  h-full container mx-auto px-4 py-4">
+        {/* <Partners /> */}
+        <div className="text-center my-4 text-lg ">
+          AIMS was able to acquire trustworthy partners like Blaise Diagne High
+          School, Sally High School, Kennedy High School, Delafoss High School,
+          Mariama Ba High School.
         </div>
-        <div className="relative flex justify-center items-center text-center">
+        <div className="relative  flex sm:h-full h-40 justify-center items-center">
           <Image
             src="/partner/partner.jpg"
             layout="fill"
             // width="120"
             // height="120"
             objectFit="contain"
-            objectPosition="bottom"
+            objectPosition="center"
             alt="group"
-            className="rounded-full"
+            className=""
           />
         </div>
       </div>
