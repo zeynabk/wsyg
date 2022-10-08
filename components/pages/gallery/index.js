@@ -55,7 +55,7 @@ const GalleryPageContainer = ({
       <main className=" min-h-[500px] relative ">
         <div className="">
           <Image
-            src="/team/gallerybg.jpeg"
+            src="/team/team.jpg"
             layout="fill"
             objectFit="cover"
             objectPosition="bottom"
@@ -69,7 +69,7 @@ const GalleryPageContainer = ({
           Gallery
         </h1>
 
-        <ul
+        {/* <ul
           onClick={handleOnFolderClick}
           className="grid mb-8 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-4 container mx-auto"
         >
@@ -95,9 +95,9 @@ const GalleryPageContainer = ({
               </li>
             );
           })}
-        </ul>
+        </ul> */}
         <div className=" grid md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 grid-cols-1 gap-4 container mx-auto transition transform duration-1000 ease-in-out">
-          {images?.map((d) => (
+          {images?.slice(0, 8)?.map((d) => (
             // <p key={d.id}>{d.name}</p>
             <ImageItem
               key={d.id}
